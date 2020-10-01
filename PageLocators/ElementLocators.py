@@ -123,6 +123,7 @@ class Locators:
         self.driver.find_element_by_xpath("//div[@class='_6ltg']//button[text()='Log In']").click()
 
 
+
     def teardown(self):
         self.driver.close()
         self.driver.quit()
